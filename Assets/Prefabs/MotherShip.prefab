@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 2726606858180464754}
   - component: {fileID: 5540923246604936727}
   - component: {fileID: 7062013008609033560}
+  - component: {fileID: -5500058655065049190}
+  - component: {fileID: 2445536337485688800}
   m_Layer: 0
   m_Name: MotherShip
-  m_TagString: Untagged
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,3 +113,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.44207668}
   m_EdgeRadius: 0
+--- !u!114 &-5500058655065049190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8435193258787635246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4043d1b0eaf8b794fb4c8e5cd2feff02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 10
+--- !u!114 &2445536337485688800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8435193258787635246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e121ff62634d0ac4e89261638b371d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: 0
+  explosion: {fileID: 4616390707469419575, guid: ebc01380d43dfc942aea2b619c5f952a, type: 3}

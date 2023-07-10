@@ -15,6 +15,10 @@ public class FriendlyBullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.CompareTag("Alien"))
+        {
+            collision.gameObject.GetComponent<Alien>().Kill();
+            gameObject.SetActive(false);
+        }
     }
 }
