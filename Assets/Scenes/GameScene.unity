@@ -553,6 +553,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9ae60250b54ef448fdbcb314077f0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &230271065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230271062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fa2df3245b9c749a6cc806c2c6ae95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  currentHealth: 0
+  maxLifes: 3
+  currentLifes: 3
+  shipSpeed: 0
+  fireRate: 0
 --- !u!4 &260735465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9118156336735074822, guid: 88900b26ed2655d4f852a6e5c393437f, type: 3}
@@ -1585,6 +1603,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4861682667555620181, guid: 3499c92960835f44daeeede02c893325, type: 3}
+      propertyPath: shipStats
+      value: 
+      objectReference: {fileID: 230271065}
     - target: {fileID: 4861682667555620181, guid: 3499c92960835f44daeeede02c893325, type: 3}
       propertyPath: objectPool
       value: 
